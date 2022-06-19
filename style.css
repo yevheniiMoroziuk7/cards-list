@@ -1,0 +1,184 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.wrapper {
+    margin: 100px auto;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  align-content: space-between;
+  height: 394px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0 0 0 / 14%);
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin: 12px 12px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center
+}
+
+.item-content {
+  padding: 22px 24px;
+  padding-bottom: 0;
+}
+
+.price {
+  margin: 0;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.button_color {
+  background: #7E72F2;
+}
+
+.card_button_1 {
+  width: 70px;
+  height: 27px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.value {
+  margin: 0;
+  line-height: 18px;
+  font-size: 1rem;
+}
+
+.name {
+  margin: 0px 0px 8px 0px;
+}
+
+.catagory {
+  margin: 0px 0px 0px 0px;
+  font-size: 0.9rem;
+}
+
+.main-button {
+  position: sticky;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: white;
+  text-align: center;
+  display: block;
+  border-end-end-radius: 8px;
+  border-end-start-radius: 8px;
+  background-color: #7E72F2;
+  text-transform: uppercase;
+  justify-content: flex-end;
+}
+
+.product-list {
+    max-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-container {
+    width: calc 100%;
+    height: 400px;
+}
+
+
+@media (min-width: 576px) {
+    .col-s {
+        width: calc(100% / 12 * 5.88);
+    }
+}
+
+@media (min-width: 768px) {
+    .col-m {
+        width: calc(100% / 12 * 3.88);
+    }
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+:root {
+  --gray-100:#EDEDED;
+  --hover-color: #7E72F2;
+}
+
+.wrapper {
+  margin: 100px auto;
+}
+  
+
+.pagination {
+  margin: 10px auto;
+  width: 590px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.pagination-center {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  list-style: none;
+  border-radius: 20px
+}
+
+.pagination-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ededed;
+  border-radius: 20px;
+  color: #2c2c2c;
+  transition: .3s
+}
+
+
+.pagination a {
+  line-height: 1;
+  text-decoration: none
+}
+
+.pagination-item.active,
+.pagination-item:hover {
+  background-color: var(--hover-color);
+}
